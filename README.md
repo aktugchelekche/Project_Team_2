@@ -2,7 +2,7 @@
 
 <p align="center"> <img width="299" alt="Screen Shot 2022-06-11 at 3 47 29 PM" src="https://user-images.githubusercontent.com/98676400/173204357-6cdd455f-daec-480f-9cc0-0fcc33533950.png"> </p>
 
-Machine Learning Final Project for discovering what type of components needs to be combined to create a popular song.
+<strong>A Machine Learning Final Project for discovering what type of components needs to be combined to create a popular song.</strong>
 
 ## Our Team : 
 
@@ -17,16 +17,25 @@ Machine Learning Final Project for discovering what type of components needs to 
 
 
 
-With our Machine Learning Model, we want predict how popular a song would be with given features such as its "danceability" , "key" and "tempo" etc.
-## Communication 
+With our Machine Learning Model, we want predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc.
 
-The team members will communicate via Slack and/or Zoom if necessary.
 
-#### Description of Our source of Data :
+## Description of Our source of Data :
 
-The datasets are composed of 2000 rows and 9 columns each. So, a priori we can say that this dataset contains the Top 2000 songs from the period analyzed.
-In order to increase the depth of understanding of the data that we have, we must understand the content of each column present in the dataset. We will remove columns "Artist" , "Song" and "Year" as they are irrelevant for ML model.
-We will create variety of plots to discover most correlated features. The description of the columns are as follows :
+The datasets are composed of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from the period analyzed.
+In order to increase the depth of understanding of the data that we have, we must understand the content of each column present in the dataset.
+
+#### EDA
+
+* We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
+* Drop <code> Null </code> and <code> Dublicates </code> columns to keep our data clean and this woluld make our ML model work more efficiently. 
+* There are few columns such as "explicit" that we will convert it as  <code> numeric</code> column.
+* We will need to <code>encode</code> "genre" columns as it contains multiple unique values. 
+* To prepare our dataset for ML model, we will remove columns "Artist" , "Song" and "Year"  etc as they are irrelevant for ML model.
+
+*We will update our outline as we face any issues. 
+
+##### The description of the columns are as follows :
 
 * <strong>artist</strong>: Name of the Artist.
 * <strong>song</strong>: Name of the Track.
@@ -48,7 +57,9 @@ We will create variety of plots to discover most correlated features. The descri
 * <strong>genre</strong>: Genre of the track
 
 
+## Communication 
 
+The team members will communicate via Slack and/or Zoom if necessary.
 
 ## Resources
 [Top Hits Spotify from 2000-2019](https://github.com/aktugchelekche/Project_Team_2/tree/main/Resources)
