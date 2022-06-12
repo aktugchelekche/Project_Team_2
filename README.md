@@ -26,11 +26,12 @@ The datasets are composed of 2000 rows and 18 columns from two datasets. We can 
 In order to increase the depth of understanding of the data that we must understand the content of each column present in the dataset.
 
 #### EDA
-
+* We began the project with ETL. We have read the csv files then prepared to export to Pgadmin by dropping <code>duplicated</code> rows .
+* After that , we join 2 tables by <code>inner</code> join via Pgadmin then export the joined table as <code> songs_normalized</code>
 * We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
-* Drop <code> Null </code> and <code> Dublicates </code> columns to keep our data clean and this woluld make our ML model work more efficiently. 
-* There are few columns such as "explicit" that we will convert it as  <code> numeric</code> column.
-* We will need to <code>encode</code> "genre" columns as it contains multiple unique values. 
+* Drop <code> Null </code> and <code> Dublicates </code> columns (again) ensure to keep our data clean and this woluld make our ML model work more efficiently. 
+* There are few columns such as "explicit" that we will convert it as  <code>numeric</code> column.
+* We will need to <code>encode</code> "genre" column as it contains multiple unique values. 
 * To prepare our dataset for ML model, we will remove columns "Artist" , "Song" and "Year"  etc as they are irrelevant for ML model.
 
 *We will update our outline as we face any issues. 
