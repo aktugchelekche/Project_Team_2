@@ -57,6 +57,9 @@ In order to increase the depth of understanding of the data that we must underst
 * <strong>tempo</strong>: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 * <strong>genre</strong>: Genre of the track
 
+### Interim Machine Learning Model 
+
+We began with connecting our database to ML model then check types of each column to unsure we have correct types before creating our model. We have discovered that <code> expilicit</code> column was a boolean type so that it was converted to numeric. After that , we dropped column that will not have any impact on our model such as <code> year</code>. As an interim model , we have extremly low accuracy and high loss value. We are working on it to improve the metrics. 
 
 ## Communication 
 
