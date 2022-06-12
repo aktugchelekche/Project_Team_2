@@ -23,7 +23,7 @@ With our Machine Learning Model, we want predict/calculate the popularity of a s
 ## Description of Our source of Data :
 
 The datasets are composed of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from the period analyzed.
-In order to increase the depth of understanding of the data that we have, we must understand the content of each column present in the dataset.
+In order to increase the depth of understanding of the data that we must understand the content of each column present in the dataset.
 
 #### EDA
 
@@ -35,7 +35,7 @@ In order to increase the depth of understanding of the data that we have, we mus
 
 *We will update our outline as we face any issues. 
 
-##### The description of the columns are as follows :
+##### The description of columns are as follows :
 
 * <strong>artist</strong>: Name of the Artist.
 * <strong>song</strong>: Name of the Track.
