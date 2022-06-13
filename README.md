@@ -4,7 +4,7 @@
 
 <strong>A Machine Learning Final Project for discovering what type of components needs to be combined to create a popular song.</strong>
 
-## Our Team : 
+## Our Team
 
 * <strong>Julian Flores - Circle Role</strong>  :The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
 
@@ -13,14 +13,14 @@
 * <strong>Aktug Cilekci - Square Role </strong>  : The team member in the square role will be responsible for the repository.
 
 
-## Our Goal : What Makes A Song Popular ?
+## Our Goal : What Makes a Song Popular ?
 
 
 
 With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc.
 
 
-## Description of Our source of Data :
+## Description of Our source of Data
 
 The datasets are composed of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from the period analyzed.
 To increase the depth of understanding of the data, we must first understand the content of each column present in the dataset.
@@ -36,7 +36,7 @@ To increase the depth of understanding of the data, we must first understand the
 
 *We will update our outline as we face any issues. 
 
-#### The description of columns are as follows :
+#### Column Descriptions
 
 * <strong>artist</strong>: Name of the Artist.
 * <strong>song</strong>: Name of the Track.
