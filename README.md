@@ -22,7 +22,7 @@ With our Machine Learning Model, we want to predict/calculate the popularity of 
 
 ## Description of Our source of Data
 
-The datasets are composed of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from the period analyzed.
+The datasets are comprised of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from 2000-2019.
 To increase the depth of understanding of the data, we must first understand the content of each column present in the dataset.
 
 #### EDA
