@@ -59,7 +59,7 @@ To increase the depth of understanding of the data, we must first understand the
 
 ### Interim Machine Learning Model 
 
-We began with connecting our database to ML model and checking the data types of each column to unsure we have correct types before creating our model. We have discovered that <code> explicit</code> column was a boolean type, so that it was converted to numeric. After that, we dropped columns that will not have any impact on our model such as <code> year</code>. As an interim model, we have extremly low accuracy and high loss value. We are working on it to improve the metrics. 
+We began by connecting our database to the ML model and checking the data types of each column to ensure we have correct types before creating our model. We have discovered that the <code> explicit</code> column was a boolean type, so it was converted to numeric (0/1). After that, we dropped columns that will not have any impact on our model such as <code> year</code>. As an interim model, we have extremly low accuracy and high loss value. We are working on it to improve the metrics. 
 
 ## Communication 
 
