@@ -4,39 +4,39 @@
 
 <strong>A Machine Learning Final Project for discovering what type of components needs to be combined to create a popular song.</strong>
 
-## Our Team : 
+## Our Team
 
-* <strong>Julian Flores -Triangle Role</strong>  :The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
+* <strong>Julian Flores - Circle Role</strong>  :The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
 
-* <strong>Robby Rangel -Circle Role </strong>    :The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project step
+* <strong>Robby Rangel - Triangle Role</strong>    :The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project step
 
 * <strong>Aktug Cilekci - Square Role </strong>  : The team member in the square role will be responsible for the repository.
 
 
-## Our Goal : What Makes A Song Popular ?
+## Our Goal : What Makes a Song Popular ?
 
 
 
-With our Machine Learning Model, we want predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc.
+With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc.
 
 
-## Description of Our source of Data :
+## Description of Our source of Data
 
-The datasets are composed of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from the period analyzed.
-In order to increase the depth of understanding of the data that we must understand the content of each column present in the dataset.
+The datasets are comprised of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from 2000-2019.
+To increase the depth of understanding of the data, we must first understand the content of each column present in the dataset.
 
 #### EDA
 * We began the project with ETL. We have read the csv files then prepared to export to Pgadmin by dropping <code>duplicated</code> rows .
-* After that , we join 2 tables by <code>inner</code> join via Pgadmin then export the joined table as <code> songs_normalized</code>
+* Next, we joined two tables by <code>inner</code> join via Pgadmin and exported the joined table as <code> songs_normalized</code>
 * We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
-* Drop <code> Null </code> and <code> Dublicates </code> columns (again) ensure to keep our data clean and this woluld make our ML model work more efficiently. 
+* Drop <code> Null </code> and <code> Duplicates </code> columns (again) ensure to keep our data clean and this would make our ML model work more efficiently. 
 * There are few columns such as "explicit" that we will convert it as  <code>numeric</code> column.
 * We will need to <code>encode</code> "genre" column as it contains multiple unique values. 
 * To prepare our dataset for ML model, we will remove columns "Artist" , "Song" and "Year"  etc as they are irrelevant for ML model.
 
 *We will update our outline as we face any issues. 
 
-##### The description of columns are as follows :
+#### Column Descriptions
 
 * <code>artist</code>: Name of the Artist.
 * <code>song</code>: Name of the Track.
@@ -57,6 +57,9 @@ In order to increase the depth of understanding of the data that we must underst
 * <code>tempo</code>: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 * <code>genre</code>: Genre of the track
 
+### Interim Machine Learning Model 
+
+We began by connecting our database to the ML model and checking the data types of each column to ensure we have correct types before creating our model. We have discovered that the <code> explicit</code> column was a boolean type, so it was converted to numeric (0/1). After that, we dropped columns that will not have any impact on our model such as <code> year</code>. As an interim model, we have extremly low accuracy and high loss value. We are working on it to improve the metrics. 
 
 ## Communication 
 
