@@ -64,4 +64,17 @@ To increase the depth of understanding of the data, we must first understand the
 The team members will communicate via Slack and/or Zoom if necessary.
 
 ## Resources
-[Top Hits Spotify from 2000-2019](https://github.com/aktugchelekche/Project_Team_2/tree/main/Resources)
+* Data : [Top Hits Spotify from 2000-2019](https://github.com/aktugchelekche/Project_Team_2/tree/main/Resources)
+* Software/Languages: 
+  * PostgresSql 
+  * Jupyter Notebook- 
+  * Google Colab, 
+  * Python 
+  * PgAdmin
+* Libraries: 
+  * Scikit-learn
+  * Pandas
+  * Seaborn
+  * Matplotlib 
+  * Plotly
+  
