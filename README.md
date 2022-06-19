@@ -51,6 +51,10 @@ process
 training and testing sets
  * Explanation of model choice,
 
+##  Dashboard
+[Project Team #2 DashBoard](https://public.tableau.com/app/profile/rarangel/viz/Project_Team_2_Dashboard/Dashboard?publish=yes)
+
+
 ## Communication 
 
 The team members will communicate via Slack and/or Zoom if necessary.
