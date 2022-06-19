@@ -15,9 +15,7 @@
 
 ## Our Goal : What Makes a Song Popular ?
 
-
-
-With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc.
+With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc. The scale that we are using to determine whether a song is popular or not is <code> pd.qcut </code> then label it <code> popular =1 </code> and <code> not popular = 0</code> . 
 
 
 ## Description of Our source of Data
@@ -59,7 +57,7 @@ To increase the depth of understanding of the data, we must first understand the
 
 ###  Machine Learning Model 
 
-[Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models/Machine%20Learning%20Model_Report.pdf)
+[Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models)
 
 ## Communication 
 
