@@ -15,7 +15,9 @@
 
 ## Our Goal : What Makes a Song Popular ?
 
-With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc. The scale that we are using to determine whether a song is popular or not is <code> pd.qcut </code> then label it <code> popular =1 </code> and <code> not popular = 0</code> . 
+With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc. The scale that we are using to determine whether a song is popular or not is calculated with 
+* <code>pd.qcut(songs_df["popularity"],q=2 ,labels=[0,1] ).astype('int')</code>  
+* Then label it as <code> popular =1 </code> and <code> not popular = 0</code> . 
 
 
 ## Description of Our source of Data
@@ -23,7 +25,8 @@ With our Machine Learning Model, we want to predict/calculate the popularity of 
 The datasets are comprised of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from 2000-2019.
 To increase the depth of understanding of the data, we must first understand the content of each column present in the dataset.
 
-## ETL, EDA , Feature Engineering and Data Preprocessing
+## Description of The Data exploration Phase of The project
+#### ETL, EDA , Feature Engineering and Data Preprocessing
 
 * We began the project with ETL. We have read the csv files then prepared to export to Pgadmin by dropping <code>duplicated</code> rows .
 * Next, we joined two tables by <code>inner</code> join via Pgadmin and exported the joined table as <code> songs_normalized</code>
@@ -36,8 +39,8 @@ To increase the depth of understanding of the data, we must first understand the
 
 - Details can be found in the [ETL_EDA_Data_Preprocessing](https://github.com/aktugchelekche/Project_Team_2/tree/main/ETL_EDA_Data_Preprocessing) folder. 
 
-
-##  Machine Learning Model 
+## Description of The Analysis Phase of The project
+###  Machine Learning Model 
 
 [Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models): 
 
