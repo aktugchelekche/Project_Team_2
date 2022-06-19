@@ -23,7 +23,7 @@ With our Machine Learning Model, we want to predict/calculate the popularity of 
 The datasets are comprised of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from 2000-2019.
 To increase the depth of understanding of the data, we must first understand the content of each column present in the dataset.
 
-#### EDA
+## EDA
 * We began the project with ETL. We have read the csv files then prepared to export to Pgadmin by dropping <code>duplicated</code> rows .
 * Next, we joined two tables by <code>inner</code> join via Pgadmin and exported the joined table as <code> songs_normalized</code>
 * We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
@@ -55,7 +55,7 @@ To increase the depth of understanding of the data, we must first understand the
 * <code>tempo</code>: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 * <code>genre</code>: Genre of the track
 
-###  Machine Learning Model 
+##  Machine Learning Model 
 
 [Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models)
 
