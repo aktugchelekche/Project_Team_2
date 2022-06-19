@@ -23,17 +23,15 @@ With our Machine Learning Model, we want to predict/calculate the popularity of 
 The datasets are comprised of 2000 rows and 18 columns from two datasets. We can say that this dataset contains the Top 2000 songs from 2000-2019.
 To increase the depth of understanding of the data, we must first understand the content of each column present in the dataset.
 
-## EDA
+## ETL, EDA , Feature Engineering and Data Preprocessing
 * We began the project with ETL. We have read the csv files then prepared to export to Pgadmin by dropping <code>duplicated</code> rows .
 * Next, we joined two tables by <code>inner</code> join via Pgadmin and exported the joined table as <code> songs_normalized</code>
 * We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
 * Drop <code> Null </code> and <code> Duplicates </code> columns (again) ensure to keep our data clean and this would make our ML model work more efficiently. 
 * There are few columns such as "explicit" that we will convert it as  <code>numeric</code> column.
+* Conver <code>popularity</code> to cotegorical data. 
 * We will need to <code>encode</code> "genre" column as it contains multiple unique values. 
-* To prepare our dataset for ML model, we will remove columns "Artist" , "Song" and "Year"  etc as they are irrelevant for ML model.
-
-*We will update our outline as we face any issues. 
-
+- Details can be found in the [ETL_EDA_Data_Preprocessing](https://github.com/aktugchelekche/Project_Team_2/tree/main/ETL_EDA_Data_Preprocessing) folder. 
 #### Column Descriptions
 
 * <code>artist</code>: Name of the Artist.
