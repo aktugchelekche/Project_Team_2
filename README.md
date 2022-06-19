@@ -57,7 +57,17 @@ To increase the depth of understanding of the data, we must first understand the
 
 ##  Machine Learning Model 
 
-[Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models)
+[Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models): 
+
+ * Description of preliminary data
+preprocessing
+ * Description of preliminary feature
+engineering and preliminary feature
+selection, including their decision-making
+process
+ * Description of how data was split into
+training and testing sets
+ * Explanation of model choice,
 
 ## Communication 
 
@@ -66,15 +76,10 @@ The team members will communicate via Slack and/or Zoom if necessary.
 ## Resources
 * Data : [Top Hits Spotify from 2000-2019](https://github.com/aktugchelekche/Project_Team_2/tree/main/Resources)
 * Software/Languages: 
-  * PostgresSql 
-  * Jupyter Notebook- 
-  * Google Colab, 
-  * Python 
-  * PgAdmin
+  * Jupyter Notebook, Google Colab. PostgresSql.
+  * Python, PgAdmin
 * Libraries: 
-  * Scikit-learn
-  * Pandas
-  * Seaborn
-  * Matplotlib 
-  * Plotly
+  * Pandas ,Numpy ,SqlAlchemy, Psycopg2.
+  * Tensorflow,Scikit-learn.
+  * Seaborn, Matplotlib ,Plotly.
   
