@@ -57,9 +57,9 @@ To increase the depth of understanding of the data, we must first understand the
 * <code>tempo</code>: The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 * <code>genre</code>: Genre of the track
 
-### Interim Machine Learning Model 
+###  Machine Learning Model 
 
-We began by connecting our database to the ML model and checking the data types of each column to ensure we have correct types before creating our model. We have discovered that the <code> explicit</code> column was a boolean type, so it was converted to numeric (0/1). After that, we dropped columns that will not have any impact on our model such as <code> year</code>. As an interim model, we have extremly low accuracy and high loss value. We are working on it to improve the metrics. 
+[Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models/Machine%20Learning%20Model_Report.pdf)
 
 ## Communication 
 
