@@ -1,6 +1,6 @@
 ## Machine Learning Model
 
-Description of preliminary data preprocessing:
+### Description of preliminary data preprocessing:
 
 1.	Extract, transform and load:
 •	Two datasets were extract from Kaggle.com . 
@@ -21,7 +21,7 @@ v.	Correlation Heatmap.
 •	Convert binary column ‘explicit’ to numerical datatype. 
 •	Export the processed dataset to sql table with PostGres server. 
 
-Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:
+### Description of preliminary feature engineering and preliminary feature selection, including their decision-making process:
 
 1.	Feature engineering and Preliminary Feature Selection
 •	Mode column is indicator of modality of each song such Minor and Major and since encoding removes redundancies from data, this column was encoded as "Minor" and "Major".
@@ -29,7 +29,7 @@ Description of preliminary feature engineering and preliminary feature selection
 •	Upon completion of bucketing and encoding, initial columns dropped from the dataset and ready for splitting as training and testing data. 
 •	Since we algorithm is still on early stage we are still discovering on selection of features. However, currently we are keeping every feature from the datasets as of now. 
 
-Description of how data was split into training and testing sets:
+### Description of how data was split into training and testing sets:
 
 •	The data was split on 20% test to 80% training.
     
