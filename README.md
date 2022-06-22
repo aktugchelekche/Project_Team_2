@@ -4,7 +4,7 @@
 
 <strong>A Machine Learning Final Project for discovering what type of components needs to be combined to create a popular song.</strong>
 
-## Presentaion for The Project 
+## Presentation for The Project 
 
 [Predicting Song Popularity](https://docs.google.com/presentation/d/1kOSiHXoGP-cXTQ-oCWnMT5yGzry90CjAPEpOwvMc53U/edit?usp=sharing)
 
