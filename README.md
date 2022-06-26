@@ -1,4 +1,4 @@
-# Project Team 2 DashBoard 
+# Project Team 2 
 
 <p align="center"> <img width="299" alt="Screen Shot 2022-06-11 at 3 47 29 PM" src="https://user-images.githubusercontent.com/98676400/173204357-6cdd455f-daec-480f-9cc0-0fcc33533950.png"> </p>
 
@@ -6,7 +6,7 @@
 
 ## Presentaion for The Project 
 
-[Predicting Song Popularity](https://docs.google.com/presentation/d/1kOSiHXoGP-cXTQ-oCWnMT5yGzry90CjAPEpOwvMc53U/edit?usp=sharing)
+[Predicting Song Popularity](https://docs.google.com/presentation/d/15vNpkEyAh5wHKTs7_twZk5eSgmxmJ9ghC9EKAm3KvnM/edit?usp=sharing)
 
 ## Our Team
 
