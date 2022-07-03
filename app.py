@@ -8,11 +8,11 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # MAIN PAGE
 # heading
 st.set_page_config(layout="wide")
-colT1,colT2 = st.columns([4,8])
+colT1,colT2 = st.columns([3,8])
 with colT2:
     st.title('Predicting Spotify Popularity')
 # display of popularity meter and number
-colT1,colT2 = st.columns([5.5,8])
+colT1,colT2 = st.columns([6,8])
 with colT2:
     with st.spinner('Wait for it...'):
         time.sleep(2)
