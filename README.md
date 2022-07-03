@@ -49,7 +49,7 @@ To increase the depth of understanding of the data, we must first understand the
 
 ## Description of The Analysis Phase of The project
 ###  Machine Learning Model  
-<strong> Updated July 3rd <strong>
+<strong> Updated July 3rd </strong>
 [Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models): 
 
  * Description of preliminary data
@@ -60,7 +60,8 @@ selection, including their decision-making
 process
  * Description of how data was split into
 training and testing sets
- * Explanation of model choice,
+ * Explanation of model choice.
+ * PCA Analysis.
 
 ##  Dashboard
 [Project Team #2 DashBoard](https://public.tableau.com/app/profile/rarangel/viz/Project_Team_2_Dashboard/Dashboard?publish=yes)
