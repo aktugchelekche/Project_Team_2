@@ -48,8 +48,8 @@ To increase the depth of understanding of the data, we must first understand the
 - Details can be found in the [ETL_EDA_Data_Preprocessing](https://github.com/aktugchelekche/Project_Team_2/tree/main/ETL_EDA_Data_Preprocessing) folder. 
 
 ## Description of The Analysis Phase of The project
-###  Machine Learning Model 
-
+###  Machine Learning Model  
+<strong> Updated July 3rd <strong>
 [Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models): 
 
  * Description of preliminary data
@@ -73,10 +73,10 @@ The team members will communicate via Slack and/or Zoom if necessary.
 ## Resources
 * Data : [Top Hits Spotify from 2000-2019](https://github.com/aktugchelekche/Project_Team_2/tree/main/Resources)
 * Software/Languages: 
-  * Jupyter Notebook, Google Colab. PostgresSql.
-  * Python, PgAdmin
+  * Jupyter Notebook, Google Colab. PostgresSql. Heroku
+  * Python, PgAdmin , 
 * Libraries: 
-  * Pandas ,Numpy ,SqlAlchemy, Psycopg2.
+  * Pandas ,Numpy ,SqlAlchemy, Psycopg2 , Streamlite, Joblib.
   * Tensorflow,Scikit-learn.
   * Seaborn, Matplotlib ,Plotly.
   
