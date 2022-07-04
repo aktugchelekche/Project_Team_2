@@ -66,6 +66,9 @@ training and testing sets
 ##  Dashboard
 [Project Team #2 DashBoard](https://public.tableau.com/app/profile/rarangel/viz/Project_Team_2_Dashboard/Dashboard?publish=yes)
 
+## Project Story
+[Project Team #2 Story](https://public.tableau.com/app/profile/rarangel/viz/Project_Team_2_Story/Story?publish=yes)
+
 
 ## Communication 
 
