@@ -1,4 +1,8 @@
+<p align="center"> <img width="299" alt="Screen Shot 2022-06-11 at 3 47 29 PM" src="https://user-images.githubusercontent.com/98676400/173204357-6cdd455f-daec-480f-9cc0-0fcc33533950.png"> </p>
+
 # Project_Team_2 - Machine Learning Project 
+Final project for discovering the omponents that must be combined to determine a popular or not popular song applying Machine Learning
+
 ## Self Assesment
 The group project 002 -work together to develop this Machine Learning Project,The team was conformed by three members with different roles as described below:
 * Robby Rangel - Triangle Role :The member in the triangle role will create a mockup of a machine learning model. This can even be a diagram that explains how it will work concurrently with the rest of the project step
