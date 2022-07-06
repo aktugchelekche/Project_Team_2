@@ -1,7 +1,8 @@
 <p align="center"> <img width="299" alt="Screen Shot 2022-06-11 at 3 47 29 PM" src="https://user-images.githubusercontent.com/98676400/173204357-6cdd455f-daec-480f-9cc0-0fcc33533950.png"> </p>
 
 # Project_Team_2 - Machine Learning Project 
-Final project for discovering the omponents that must be combined to determine a popular or not popular song applying Machine Learning
+Final project for discovering the components that must be combined to determine a popular or not popular song applying Machine Learning and specifically Neural Network,Random Forest Classifier: Support Vector Model and Logistic Regression, using the resources detailed as follows:
+
 
 ## Self Assesment
 The group project 002 -work together to develop this Machine Learning Project,The team was conformed by three members with different roles as described below:
@@ -11,8 +12,7 @@ The group project 002 -work together to develop this Machine Learning Project,Th
 The team work togeteher, very supportive and I learned a lot from the other team memebers, the main challenge was keep the speed and technicallity applied for our team to develop the complete project. but all was very well managed via our slack communications and our sesions during class, each member apport individual contributions, extensively discussed in our sessions as well.
 The project team used the following resources:
 * Data : Top Hits Spotify from 2000-2019
-* Software/Languages: Jupyter Notebook, Google Colab. PostgresSql. Heroku
-Python, PgAdmin ,
+* Software/Languages: Jupyter Notebook, Google Colab. PostgresSql. Heroku; Python and PgAdmin.
 * Libraries:  Pandas; Numpy, SqlAlchemy, Psycopg2; Streamlite; Joblib; Tensorflow, Scikit-learn; Seaborn, Matplotlib and Plotly.
 
 ## Team Assessment
@@ -31,7 +31,7 @@ With our Machine Learning Model, we want to predict/calculate the popularity of 
 
 ## Summary of Project
 
-We started with datasets that were comprised of 2000 rows and 18 columns. Most columns , such as danceability, liveness, tempo, and song duration were already in integer format and did not need any feature engineering. Some columns did have to be encoded., such as : Explicit had to be converted to numeric , popularity converted to categorical, and genre needed to be encoded.
+The team started with datasets that were comprised of 2000 rows and 18 columns. Most columns , such as danceability, liveness, tempo, and song duration were already in integer format and did not need any feature engineering. Some columns did have to be encoded., such as : Explicit had to be converted to numeric , popularity converted to categorical, and genre needed to be encoded.
 
 ### Description of how data was split into training and testing sets:
 
