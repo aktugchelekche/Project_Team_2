@@ -5,6 +5,14 @@ The group project 002 -work together to develop this Machine Learning Project,Th
 * Aktug Cilekci - Square Role : The team member in the square role will be responsible for the repository.
 * Julian Flores - Circle Role :The member in the circle role will create a mockup of a database with a set of sample data, or even fabricated data. This will ensure the database will work seamlessly with the rest of the project.
 The team work togeteher, very supportive and I learned a lot from the other team memebers, the main challenge was keep the speed and technicallity applied for our team to develop the complete project. but all was very well managed via our slack communications and our sesions during class, each member apport individual contributions, extensively discussed in our sessions as well.
+The project team used the following resources:
+* Data : Top Hits Spotify from 2000-2019
+* Software/Languages: Jupyter Notebook, Google Colab. PostgresSql. Heroku
+Python, PgAdmin ,
+* Libraries: 
+Pandas ,Numpy ,SqlAlchemy, Psycopg2 , Streamlite, Joblib.
+Tensorflow,Scikit-learn.
+Seaborn, Matplotlib ,Plotly.
 
 ## Team Assessment
 
