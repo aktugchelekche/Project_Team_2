@@ -41,7 +41,7 @@ To increase the depth of understanding of the data, we must first understand the
 * We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
 * Drop <code> Null </code> and <code> Duplicates </code> columns (again) ensure to keep our data clean and this would make our ML model work more efficiently. 
 * There are few columns such as "explicit" that we will convert it as  <code>numeric</code> column.
-* Conver <code>popularity</code> to categorical data. 
+* Convert <code>popularity</code> to categorical data. 
 * We will need to <code>encode</code> "genre" column as it contains multiple unique values. 
 - [Feature Descriptions](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019) can be found in the link 
 
