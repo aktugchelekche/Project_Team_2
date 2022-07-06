@@ -9,10 +9,7 @@ The project team used the following resources:
 * Data : Top Hits Spotify from 2000-2019
 * Software/Languages: Jupyter Notebook, Google Colab. PostgresSql. Heroku
 Python, PgAdmin ,
-* Libraries: 
-Pandas ,Numpy ,SqlAlchemy, Psycopg2 , Streamlite, Joblib.
-Tensorflow,Scikit-learn.
-Seaborn, Matplotlib ,Plotly.
+* Libraries:  Pandas; Numpy, SqlAlchemy, Psycopg2; Streamlite; Joblib; Tensorflow, Scikit-learn; Seaborn, Matplotlib and Plotly.
 
 ## Team Assessment
 
