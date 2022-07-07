@@ -25,7 +25,7 @@
 
 With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc. The scale that we are using to determine whether a song is popular or not is calculated with 
 * <code>pd.qcut(songs_df["popularity"],q=2 ,labels=[0,1] ).astype('int')</code>  
-* Then label it as <code> popular =1 </code> and <code> not popular = 0</code> . 
+* Then label it as <code> popular =1 </code> and <code> not popular = 0</code> by calculated mean . 
 
 
 ## Description of Our source of Data
