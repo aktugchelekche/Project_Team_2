@@ -82,5 +82,5 @@ The team members will communicate via Slack and/or Zoom if necessary.
 * Libraries: 
   * Pandas ,Numpy ,SqlAlchemy, Psycopg2 , Streamlite, Joblib.
   * Tensorflow,Scikit-learn.
-  * Seaborn, Matplotlib ,Plotly.
+  * Seaborn, Matplotlib ,Plotly . 
   
