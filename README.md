@@ -25,7 +25,7 @@
 
 With our Machine Learning Model, we want to predict/calculate the popularity of a song with given features such as its "danceability" , "key" and "tempo" etc. The scale that we are using to determine whether a song is popular or not is calculated with 
 * <code>pd.qcut(songs_df["popularity"],q=2 ,labels=[0,1] ).astype('int')</code>  
-* Then label it as <code> popular =1 </code> and <code> not popular = 0</code> . 
+* Then label it as <code> popular =1 </code> and <code> not popular = 0</code> by calculated mean . 
 
 
 ## Description of Our source of Data
@@ -41,15 +41,15 @@ To increase the depth of understanding of the data, we must first understand the
 * We will create variety of plots to discover most correlated features. This step will help us to reduce number of features. 
 * Drop <code> Null </code> and <code> Duplicates </code> columns (again) ensure to keep our data clean and this would make our ML model work more efficiently. 
 * There are few columns such as "explicit" that we will convert it as  <code>numeric</code> column.
-* Conver <code>popularity</code> to cotegorical data. 
+* Convert <code>popularity</code> to categorical data. 
 * We will need to <code>encode</code> "genre" column as it contains multiple unique values. 
 - [Feature Descriptions](https://www.kaggle.com/datasets/paradisejoy/top-hits-spotify-from-20002019) can be found in the link 
 
 - Details can be found in the [ETL_EDA_Data_Preprocessing](https://github.com/aktugchelekche/Project_Team_2/tree/main/ETL_EDA_Data_Preprocessing) folder. 
 
 ## Description of The Analysis Phase of The project
-###  Machine Learning Model 
-
+###  Machine Learning Model  
+<strong> Updated July 3rd </strong>
 [Machine Learning Report ](https://github.com/aktugchelekche/Project_Team_2/blob/main/Machine_Learning_Models): 
 
  * Description of preliminary data
@@ -60,10 +60,14 @@ selection, including their decision-making
 process
  * Description of how data was split into
 training and testing sets
- * Explanation of model choice,
+ * Explanation of model choice.
+ * PCA Analysis.
 
 ##  Dashboard
 [Project Team #2 DashBoard](https://public.tableau.com/app/profile/rarangel/viz/Project_Team_2_Dashboard/Dashboard?publish=yes)
+
+## Project Story
+[Project Team #2 Story](https://public.tableau.com/app/profile/rarangel/viz/Project_Team_2_Story/Story?publish=yes)
 
 
 ## Communication 
@@ -73,10 +77,10 @@ The team members will communicate via Slack and/or Zoom if necessary.
 ## Resources
 * Data : [Top Hits Spotify from 2000-2019](https://github.com/aktugchelekche/Project_Team_2/tree/main/Resources)
 * Software/Languages: 
-  * Jupyter Notebook, Google Colab. PostgresSql.
-  * Python, PgAdmin
+  * Jupyter Notebook, Google Colab. PostgresSql. Heroku
+  * Python, PgAdmin , 
 * Libraries: 
-  * Pandas ,Numpy ,SqlAlchemy, Psycopg2.
+  * Pandas ,Numpy ,SqlAlchemy, Psycopg2 , Streamlite, Joblib.
   * Tensorflow,Scikit-learn.
-  * Seaborn, Matplotlib ,Plotly.
+  * Seaborn, Matplotlib ,Plotly . 
   
